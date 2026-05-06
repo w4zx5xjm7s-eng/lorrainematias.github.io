@@ -1,74 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lorraine Matias portfolio</title>
+  <title>Lorraine Matias Portfolio</title>
+
   <style>
     body {
-  background: #0f1923;
-  color: #ece8e1;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-}
+      background: #0f1923;
+      color: #ece8e1;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      background: #1f2731;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    .navbar a {
+      color: #ff4655;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* HEADER */
+    .header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
     h1 {
-  a {
-  color: #ff4655;
-  text-decoration: none;
-  margin: 0 10px;
-}
+      color: #ff4655;
+      margin-bottom: 5px;
+    }
 
-a:hover {
-  text-decoration: underline;
-}
+    /* CARDS */
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 10px;
+    }
 
-.card {
-  background: #1f2731;
-  border-left: 4px solid #ff4655;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 5px;
-  text-align: left;
-}
+    .card {
+      background: #1f2731;
+      border-left: 4px solid #ff4655;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
   </style>
 </head>
+
 <body>
 
-  
-<h1>Lorraine Mae V. Matias</h1>
-<p>Information Technology Student</p>
-
-<!-- NAVIGATION -->
-<div class="card">
-  <a href="#about">About</a> |
-  <a href="#skills">Skills</a> |
-  <a href="#projects">Projects</a> |
+<!-- NAVBAR -->
+<div class="navbar">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
   <a href="#contact">Contact</a>
 </div>
 
-<!-- ABOUT -->
-<div class="card" id="about">
-  <h2>About Me</h2>
-  <p>Hello! I'm Lorraine Mae V. Matias, an IT student.</p>
+<!-- HEADER -->
+<div class="header">
+  <h1>Lorraine Mae V. Matias</h1>
+  <p>Information Technology Student</p>
 </div>
 
-<!-- SKILLS -->
-<div class="card" id="skills">
-  <h2>Skills</h2>
-  <p>HTML, CSS, JavaScript, Responsive Design</p>
+<div class="container">
+
+  <div class="card" id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Lorraine Mae V. Matias, an IT student passionate about technology.</p>
+  </div>
+
+  <div class="card" id="skills">
+    <h2>Skills</h2>
+    <p>HTML, CSS, JavaScript, Responsive Design</p>
+  </div>
+
+  <div class="card" id="projects">
+    <h2>Projects</h2>
+    <p>My personal portfolio website showcasing my skills.</p>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Email: lorraine...</p>
+    <p>Discord: rainsaurus</p>
+  </div>
+
 </div>
 
-<!-- PROJECTS -->
-<div class="card" id="projects">
-  <h2>Projects</h2>
-  <p>My personal portfolio website showcasing my skills.</p>
-</div>
-
-<!-- CONTACT -->
-<div class="card" id="contact">
-  <h2>Contact</h2>
-  <p>Email: lorraine...</p>
-  <p>Discord: rainsaurus</p>
-</div>
-
-  
 </body>
 </html>
